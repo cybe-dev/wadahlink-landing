@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white-200;
+  @apply text-black-100;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.cabin {
+  font-family: "Cabin", sans-serif;
+}
+
+.rammetto-one {
+  font-family: "Rammetto One", cursive;
+}
+
+@responsive {
+  .w-640 {
+    width: 640px;
+  }
+  .w-768 {
+    width: 768px;
+  }
+  .w-1024 {
+    width: 1024px;
+  }
+}
